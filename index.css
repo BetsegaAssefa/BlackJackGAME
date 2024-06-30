@@ -1,0 +1,63 @@
+*{
+    background: url(images/table.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+h1{
+    color: goldenrod;
+    background: inherit;
+    font-size: 7vh;
+}
+
+.ask,.sum,.card {
+    color: wheat;
+    font-size: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    font-weight: bold;
+}
+
+.sum,.card{
+     margin-left: -6vw;
+     margin-top: 8vh; 
+}
+
+.btn {
+    height: 6vh;
+    width: 200px;
+    margin-left: -5vw;
+    text-align: center;
+    background: goldenrod;
+}
+ 
+button{
+    border: none;
+    color: #016f32;
+    font-weight: bold;
+    font-size: 3vh;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 7px;
+ }
+
+ button:hover{
+    background: gold;
+    scale: 1.0;
+ }
+
+ button:active{
+    scale: .9;
+ }
+
+.lower {
+    margin-top: 2vh;
+}
+
+#chips{
+    color: white;
+    font-size: 4vh;
+    margin-left: -5vw;
+}
